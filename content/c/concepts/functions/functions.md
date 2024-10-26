@@ -94,7 +94,7 @@ Here's another example:
 #include <stdio.h>
 
 void greet(char* name) {
-  printf("Howdy %s!\n")
+  printf("Howdy %s!\n", name);
 }
 
 int main() {
